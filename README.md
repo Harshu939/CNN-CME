@@ -32,3 +32,9 @@ The synthetic data (images, metadata, and labels) is generated using IDL scripts
    .compile call_synth_cme
    call_synth_cme
 
+3. Python codes to do image processing, data handling and CNN training
+   ### Files:
+   run_cnn.py is the main script which takes the processed (binary masks images stored in a specific directory format and metadata as csv)
+   and creates a CNN model. Train, validate and test the model using 5 fold 5 repeat method.
+   saves the output predictions as plots and metrics (both validation and test) as csv for interpretation.
+   
